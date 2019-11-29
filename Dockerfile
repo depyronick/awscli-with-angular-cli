@@ -3,7 +3,7 @@ FROM node:latest
 RUN apt-get update && \
 	apt-get install -y python python-pip python-dev
 
-ENV ANGULAR_CLI_VERSION=9.0.0-next.18
+ENV ANGULAR_CLI_VERSION=9.0.0-rc.4
 RUN npm install -g \
 	@angular/cli@${ANGULAR_CLI_VERSION}
 
