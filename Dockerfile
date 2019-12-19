@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 ENV ANGULAR_CLI_VERSION=9.0.0-rc.4
 RUN npm install -g \
-	@angular/cli@${ANGULAR_CLI_VERSION}
+	@angular/cli@next
 
 ENV AWSCLI_VERSION=1.15.4
 RUN pip install awscli==${AWSCLI_VERSION}
